@@ -1,4 +1,3 @@
-"# Car-Counter" 
 # Car Counter: Advanced Vehicle Detection & Tracking System
 ## 🚗 Overview
 ![Header](data/car_header.png)
@@ -7,7 +6,8 @@ Car Counter is a computer vision application that detects, tracks, and counts ve
 
 ## 🎥 Demo
 
-![Watch the demo](data/CarDemo.mp4)
+[![Watch Demo](data/car_header.png)](https://drive.google.com/uc?export=download&id=1gNzmqzv7TE8-s2PQZctcWQP4Zy6zkQXv)
+
 
 ## ✨ Features
 - Multi-class Vehicle Detection : Identifies cars, trucks, buses, and motorbikes using YOLOv8
