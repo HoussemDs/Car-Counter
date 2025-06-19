@@ -6,7 +6,7 @@ Car Counter is a computer vision application that detects, tracks, and counts ve
 
 ## 🎥 Demo
 
-[![Watch Demo](data/car_header.png)](https://drive.google.com/uc?export=download&id=1gNzmqzv7TE8-s2PQZctcWQP4Zy6zkQXv)
+[Watch the demo video](https://drive.google.com/file/d/1gNzmqzv7TE8-s2PQZctcWQP4Zy6zkQXv/view?usp=sharing)
 
 
 ## ✨ Features
