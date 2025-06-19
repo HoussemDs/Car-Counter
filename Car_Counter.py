@@ -65,22 +65,13 @@ def track_and_count(img, detections_array, line):
         cv2.circle(img, (cx, cy), 4, (255, 0, 255), cv2.FILLED)
 
 # ---------------------------- Main Loop ----------------------------
-paused = False  # Start 
 while cap.isOpened():
-    if paused:
-        key = cv2.waitKey(0)
-        if key == ord(' '):  # Space key pressed
-            paused = True
-        elif key == ord('q'):
-            break
-        else:
-            continue
+    key = cv2.waitKey(1)
 
     success, frame = cap.read()
     if not success:
         break
 
-    paused = True  # Pause after every frame
 
     # Preprocess and inference
     masked_frame = cv2.bitwise_and(frame, mask)
